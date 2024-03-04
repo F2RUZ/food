@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: aliceblue;
+}
+.container {
+  width: 90%;
+  border: 1px solid;
+  margin: 100px auto;
+  background-color: white;
+}
+.wrapper {
+  width: 90%;
+  border: 1px solid darkblue;
+  margin: 80px auto;
+}
+.menu {
+  text-align: center;
+  /* Menu */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #dc780b;
+
+  opacity: 0.7;
+}
+.title {
+  text-align: center;
+  /* Food Full of treaty Love */
+
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 24px;
+
+  color: #150c01;
+}
+.text {
+  text-align: center;
+  /* There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #150c01;
+
+  opacity: 0.7;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 50px;
+}
+
+.card {
+  /* Group 14 */
+
+  width: 360px;
+  height: 446px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  border-top-left-radius: 75px;
+  padding: 20px;
+}
+
+.card__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.card__title {
+  /* Vegie Muffen */
+
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  /* identical to box height, or 96% */
+
+  color: #150c01;
+  margin: 30px 0;
+}
+.card__text {
+  /* There are many things are needed to start the Fast Food Business. */
+  width: 310px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #150c01;
+
+  opacity: 0.7;
+}
+.card__btn {
+  /* Button */
+
+  width: 36px;
+  height: 34px;
+  background-color: #dc780b;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}

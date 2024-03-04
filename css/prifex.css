@@ -1,0 +1,166 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: aliceblue;
+}
+.container {
+  width: 90%;
+  border: 1px solid;
+  margin: 100px auto;
+  background-color: white;
+}
+.wrapper {
+  width: 90%;
+  border: 1px solid darkblue;
+  margin: 80px auto;
+}
+.menu {
+  text-align: center;
+  /* Menu */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #dc780b;
+
+  opacity: 0.7;
+}
+.title {
+  text-align: center;
+  /* Food Full of treaty Love */
+
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 24px;
+
+  color: #150c01;
+}
+.text {
+  text-align: center;
+  /* There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #150c01;
+
+  opacity: 0.7;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 50px;
+}
+
+.card {
+  /* Group 14 */
+
+  width: 360px;
+  height: 446px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  border-top-left-radius: 75px;
+  padding: 20px;
+}
+
+.card__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.card__title {
+  /* Vegie Muffen */
+
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  /* identical to box height, or 96% */
+
+  color: #150c01;
+  margin: 30px 0;
+}
+.card__text {
+  /* There are many things are needed to start the Fast Food Business. */
+  width: 310px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #150c01;
+
+  opacity: 0.7;
+}
+.card__btn {
+  /* Button */
+
+  width: 36px;
+  height: 34px;
+  background-color: #dc780b;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.example {
+  display: -ms-grid;
+  display: grid;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(white),
+    to(black)
+  );
+  background: -o-linear-gradient(top, white, black);
+  background: linear-gradient(to bottom, white, black);
+}
